@@ -1,0 +1,42 @@
+a: link{
+    color: coral;
+}
+a: visited{
+    color: darkred;
+}
+a:hover{
+    color:#F36A4D;
+}
+a:active{
+    color: brown;
+}
+a{
+    color: #5E5954;
+    text-align: center;
+    font font-style: normal;
+    font-size: 20px;
+    font-family: cursive;
+}
+h2{
+    color: #5E5954;
+    text-align: center;
+    font font-style: normal;
+    font-size: 30px;
+    font-family: cursive;
+}
+h3{
+    color: #5E5954;
+    text-align: center;
+    font font-style: normal;
+    font-size: 18px;
+    font-family: cursive;
+}
+p{
+    color: #5E5954;
+    text-align: start;
+    margin-left: 300px;
+    margin-right: 300px;
+    font font-style: normal;
+    font-size: 18px;
+    font-family: cursive;
+}

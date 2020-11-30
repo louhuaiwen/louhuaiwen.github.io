@@ -1,0 +1,40 @@
+img{
+    width: 15%; 
+    margin-top: 85px;
+    margin-left: 80px;
+    margin-right: 50px;
+    float: left;
+    margin-bottom: 1000px;
+}
+p{
+    color: #5E5954;
+    text-align: start;
+    font font-style: normal;
+    font-size: 20px;
+    font-family: cursive;
+
+}
+h2{
+    margin-left: 400px;
+}
+li{
+    margin-left: 400px;
+    color: #5E5954;
+    text-align: start;
+    font font-style: normal;
+    font-size: 20px;
+    font-family: cursive;
+}
+
+a: link{
+    color: coral;
+}
+a: visited{
+    color: darkred;
+}
+a:hover{
+    color:#EA5843;
+}
+a:active{
+    color: brown;
+}
