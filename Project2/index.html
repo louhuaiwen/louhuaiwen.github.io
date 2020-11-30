@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Happy Birthday</title>
+    <meta name="description" content="Happy Birthday">
+    <script src="https://aframe.io/releases/1.0.4/aframe.min.js"></script>
+  </head>
+  
+    <body>
+    <a-scene background="color: #651782">
+     
+      <a-cylinder src="texture_cream.jpg" position="1 1.458 -3" radius="1.2" height="1.6" color="burlywood" rotation="180 0 0" scale="1 0.69 1"></a-cylinder>
+      <a-cylinder scale="1.7 0.07 1.7" rotation="180 0 0" color="#b9abd8" position="1.03 0.889 -3.09"></a-cylinder>
+      <a-cylinder rotation="180 0 0" color="#b9abd8" position="1.02462 0.33651 -3.09709" scale="0.5 0.99 0.5"></a-cylinder>
+      <a-cone src = "texture_rings.jpg" scale="0.53 1.98 0.53" position="3.35463 1.024 -2.78002" material="color: #b97979"></a-cone>
+      <a-plane src = "texture_floor.jpg" height="20" width="20" data-brackets-id="1132" geometry="" rotation="-90 0 0" position="0 -3.21 0"></a-plane>
+      <a-text value="Happy Birthday!" data-brackets-id="447" text="" position="-2.96393 3.979 -5.65667" scale="5 5 5"></a-text>
+ 
+        <!--Obj-Model-->
+        <a-assets>
+            <a-asset-item id = "rose-o"
+                      src = "rose.obj">
+        </a-asset-item>
+            <a-asset-item
+                      id = "rose-m"
+                      src = "rose.mtl">
+        </a-asset-item>
+            <a-asset-item id = "giftBox-o"
+                      src = "giftBox.obj">
+        </a-asset-item>
+            <a-asset-item id = "giftBox-m"
+                      src = "giftBox.mtl">
+        </a-asset-item>
+            <a-asset-item id = "oreo-o"
+                      src = "oreo.obj">
+        </a-asset-item>
+            <a-asset-item id = "candle-o"
+                      src = "candle.obj">
+        </a-asset-item>
+             <a-asset-item id = "table-o"
+                      src = "table.obj">
+        </a-asset-item>
+              <a-asset-item id = "balloon-o"
+                      src = "obj_balloon.obj">
+        </a-asset-item>
+         
+         <img id="sky" src="texture_galaxy.jpg">
+        
+        </a-assets>
+        
+        <!--My Model-->
+        <a-entity obj-model = "obj: #rose-o; mtl: #rose-m" position = "-0.708 -0.399 -2.729"
+            scale = "0.8 0.8 0.8" rotation = "2.210 68.400 6.530">
+        </a-entity>
+        <a-entity obj-model = "obj: #giftBox-o; mtl: #giftBox-m" position="-1.96919 0.031 -2.40687" scale="0.1 0.05 0.1" rotation="2.21 68.4 2.32">
+        </a-entity>
+        <a-entity obj-model="obj: #oreo-o" position="-1.353 0.609 -2.64081" scale="0.005 0.007 0.005" rotation="2.21 68.4 2.32" data-brackets-id="369" material="color: #ec8395">
+        </a-entity>
+        <a-entity obj-model="obj: #oreo-o" position="2.85541 -0.113 -1.72247" scale="0.005 0.007 0.005" rotation="2.21 68.4 2.32" data-brackets-id="414" material="color: #df4949">
+        </a-entity>
+        <a-entity obj-model="obj: #candle-o" position="0.036 2.014 -3.227" scale="0.03 0.15 0.03" rotation="2.21 68.4 2.32" material="color: #c72323">
+        </a-entity>
+        <a-entity obj-model="obj: candle.obj" position="0.957 2.003 -3.989" scale="0.03 0.15 0.03" rotation="2.21 68.4 2.32" material="color: #22ec55" data-brackets-id="623">
+        </a-entity>
+        <a-entity data-brackets-id="622" obj-model="obj: #candle-o" position="1.642 2.011 -2.253" scale="0.03 0.15 0.03" rotation="2.21 68.4 2.32" material="color: #fcff66">
+        </a-entity>
+        <a-entity data-brackets-id="652" obj-model="obj: #candle-o" position="1.608 2.011 -3.703" scale="0.03 0.15 0.03" rotation="2.21 68.4 2.32" material="color: #7022bf">
+        </a-entity>
+        <a-entity data-brackets-id="681" obj-model="obj: #candle-o" position="1.05422 2.01123 -2.144" scale="0.03 0.15 0.03" rotation="2.21 68.4 2.32" material="color: #38cdff">
+        </a-entity>
+        <a-entity data-brackets-id="679" obj-model="obj: #candle-o" position="0.357 2.003 -3.829" scale="0.03 0.15 0.03" rotation="2.21 68.4 2.32" material="color: #3a2deb">
+        </a-entity>
+        <a-entity data-brackets-id="680" obj-model="obj: #candle-o" position="1.89006 1.9872 -3.117" scale="0.03 0.15 0.03" rotation="2.21 68.4 2.32" material="color: #ff8800">
+        </a-entity>
+        <a-entity data-brackets-id="681" obj-model="obj: #candle-o" position="0.442 2.011 -2.375" scale="0.03 0.15 0.03" rotation="2.21 68.4 2.32" material="color: #f5006e">
+        </a-entity>
+        <a-entity data-brackets-id="723" obj-model="obj: #candle-o" position="1.05422 2.01123 -3.01085" scale="0.05 0.2 0.05" rotation="2.21 68.4 2.32" material="color: #e87bea">
+        </a-entity>
+        <a-entity data-brackets-id="766" obj-model="obj: #table-o" position="0.554 -3.210 -3.144" scale="5 4.5 5" rotation="0 90 0" material="color: #8d4f35">
+        </a-entity>
+        <a-entity obj-model="obj: #balloon-o" position="-4.54807 0.98233 -3.7682" scale="2 2 2" rotation="-13.09 90.17 0" material="color: purple">
+        </a-entity>
+        <a-entity data-brackets-id="40" obj-model="obj: obj_balloon.obj" position="-5.71807 -1.44767 -5.06717" scale="2 2 2" rotation="-13.09 90.17 0" material = "color: blue">
+        </a-entity>
+        <a-entity data-brackets-id="256" obj-model="obj: obj_balloon.obj" position="-6.54458 2.77621 -4.66781" scale="2 2 2" rotation="5 86.59 0" material="color: hotpink">
+        </a-entity>
+        <a-entity data-brackets-id="256" obj-model="obj: obj_balloon.obj" position="0.06339 7.87236 -5.06717" scale="2 2 2" rotation="5 86.59 0" material="color: aqua">
+        </a-entity>
+        <a-entity data-brackets-id="256" obj-model="obj: obj_balloon.obj" position="3.56075 5.09618 -5.06717" scale="2 2 2" rotation="5 86.59 0" material="color: pink">
+        </a-entity>
+        <a-entity data-brackets-id="255" obj-model="obj: obj_balloon.obj" position="7.98747 1.77297 -4.48071" scale="2 2 2" rotation="-20 90.17 0" material="color: deepskyblue">
+        </a-entity>
+        <a-entity data-brackets-id="256" obj-model="obj: obj_balloon.obj" position="5.56333 -1.22804 -5.06717" scale="2 2 2" rotation="30 90.17 0" material="color: rebeccapurple">
+        </a-entity>
+    
+        <a-sky src="#sky"></a-sky>
+        
+        </a-scene>
+     </body>
+</html>
